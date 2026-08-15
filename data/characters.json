@@ -1,0 +1,24 @@
+{
+  "characters": [
+    { "id": "ugrashravas", "nameHi": "उग्रश्रवा सौति", "nameEn": "Ugrashravas Sauti" },
+    { "id": "shaunaka", "nameHi": "शौनक", "nameEn": "Shaunaka" },
+    { "id": "vyasa", "nameHi": "कृष्ण द्वैपायन व्यास", "nameEn": "Vyasa" },
+    { "id": "vaishampayana", "nameHi": "वैशम्पायन", "nameEn": "Vaishampayana" },
+    { "id": "janamejaya", "nameHi": "जनमेजय", "nameEn": "Janamejaya" },
+    { "id": "parikshit", "nameHi": "परीक्षित", "nameEn": "Parikshit" },
+    { "id": "shamika", "nameHi": "शमीक", "nameEn": "Shamika" },
+    { "id": "shringin", "nameHi": "शृङ्गी", "nameEn": "Shringin" },
+    { "id": "takshaka", "nameHi": "तक्षक", "nameEn": "Takshaka" },
+    { "id": "kadru", "nameHi": "कद्रू", "nameEn": "Kadru" },
+    { "id": "vinata", "nameHi": "विनता", "nameEn": "Vinata" },
+    { "id": "kashyapa", "nameHi": "कश्यप", "nameEn": "Kashyapa" },
+    { "id": "aruna", "nameHi": "अरुण", "nameEn": "Aruna" },
+    { "id": "garuda", "nameHi": "गरुड़", "nameEn": "Garuda" },
+    { "id": "elapatra", "nameHi": "ऐलापत्र", "nameEn": "Elapatra" },
+    { "id": "vasuki", "nameHi": "वासुकि", "nameEn": "Vasuki" },
+    { "id": "jaratkaru-rishi", "nameHi": "जरत्कारु (ऋषि)", "nameEn": "Jaratkaru the sage" },
+    { "id": "jaratkaru-naga", "nameHi": "जरत्कारु (नागकन्या)", "nameEn": "Jaratkaru the naga" },
+    { "id": "astika", "nameHi": "आस्तीक", "nameEn": "Astika" },
+    { "id": "indra", "nameHi": "इन्द्र", "nameEn": "Indra" }
+  ]
+}

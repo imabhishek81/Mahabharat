@@ -1,0 +1,397 @@
+{
+  "events": [
+    {
+      "tellingOrder": 9,
+      "summaryHi": "शौनक के बारह-वर्षीय सत्र में उग्रश्रवा सौति आते हैं। यज्ञ चल रहा है; कथा अभी शुरू होगी।",
+      "summaryEn": "Ugrashravas arrives at Shaunaka’s twelve-year sattra. The rite is underway; the tale is about to be asked for.",
+      "detailHi": "आदि पर्व के आरम्भ में हम कुरुक्षेत्र की धूल पर नहीं खड़े। हम निमिषारण्य में हैं, जहाँ शौनक कुलपति ने ऋषियों के साथ एक दीर्घ सत्र चलाया है।\n\nउग्रश्रवा, लोमहर्षण के पुत्र, पुराणों में निपुण सौति, उस सभा के पास आते हैं। ऋषि उनसे प्राचीन कथा माँगते हैं। जो युद्ध हम ‘महाभारत’ कहते हैं, वह इस समय-रेखा में पहले ही समाप्त हो चुका है। बचे हैं सुनने वाले, और एक गायक जो जनमेजय के यज्ञ से वह कथा लेकर आया है।\n\nयह पट्टी इसलिए सबसे ऊपर है: यहाँ घटना घटित नहीं हो रही, यहाँ घटना सुनाई जा रही है।",
+      "detailEn": "The Ādi Parva does not open on the Kurukṣetra field. It opens in Naimiṣa, at Shaunaka’s long sattra. Ugraśravas, son of Lomaharṣaṇa, arrives. The war is already over; what begins is hearing.",
+      "listenHi": "सुनो! महाभारत तलवार की खनक से नहीं खुलती। निमिष के वन में घी का धुआँ उठ रहा है। शौनक का बारह वर्ष का सत्र जल रहा है। ऋषि पंक्ति में बैठे हैं। तभी… लोमहर्षण के पुत्र उग्रश्रवा सौति आते हैं। पाँव में धूल! कंठ में पुरानी कथा। युद्ध? वह तो पहले ही लड़ चुका। मैदान ठंडा पड़ चुका। अब बचे हैं कान… और एक गायक। तो क्या यहाँ खून बहेगा? नहीं! यहाँ सुना जाएगा। पर यह आवाज़ किस यज्ञ से उठी… वह अभी मुँह नहीं खोलती।",
+      "causes": [],
+      "characterIds": [
+        "ugrashravas",
+        "shaunaka"
+      ],
+      "placeHi": "निमिषारण्य",
+      "placeEn": "Naimisha forest",
+      "artworkId": null,
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Anukramanika",
+        "section": "Section I",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01001.htm"
+      },
+      "id": "naimisha-satra",
+      "titleHi": "निमिष में सत्र",
+      "titleEn": "The sattra in Naimisha",
+      "band": 0,
+      "t": 0.12,
+      "frameId": "naimisha"
+    },
+    {
+      "tellingOrder": 10,
+      "summaryHi": "भारत को व्यास ने बाँधा। शिष्य वैशम्पायन ने वह जनमेजय के सर्पसत्र में पढ़ा। सौति ने वहीं सुना।",
+      "summaryEn": "Vyasa composed the Bhārata. Vaishampayana recited it at Janamejaya’s snake sacrifice. Sauti heard it there.",
+      "detailHi": "सौति केवल अपनी कल्पना नहीं बाँट रहे। वे बताते हैं कि कृष्ण द्वैपायन व्यास ने यह इतिहास रचा, और अपने शिष्य वैशम्पायन को सिखाया।\n\nवैशम्पायन ने वही कथा राजा जनमेजय के सर्पसत्र में कही — उसी यज्ञ में जिसे हम नीचे की पट्टी में देखेंगे। उग्रश्रवा उस सभा में उपस्थित थे। निमिष में जो सुन पड़ता है, वह एक और सुनने की नकल है।\n\nव्यास लेखक ही नहीं, कुरु वंश के भीतर भी बँधे हैं। यह तथ्य बाद के आदि पर्व में कारण बनेगा; इस पाठ में इतना काफी है: कथा की तहें हैं, और तह का नाम झूठ नहीं, विधि है।",
+      "detailEn": "Sauti reports a chain: Vyasa composed; Vaishampayana recited at Janamejaya’s sattra; Sauti heard that recital and now repeats it to Shaunaka. Nested telling is the epic’s own method.",
+      "listenHi": "एक कथा कितनी बार सुनी जाती है? सोचो ज़रा। कृष्ण द्वैपायन व्यास ने भारत बाँधा। शब्द को थाम लिया। शिष्य वैशम्पायन ने वही कथा राजा जनमेजय के सर्पसत्र में कही। आग के पास! नागों के नाम के बीच। उग्रश्रवा वहीं बैठे थे। कान खुले। कुछ नहीं बोलते। अब वही गूँज निमिष में शौनक तक आ रही है। दो सभाएँ! एक कथा के भीतर दूसरी कथा। जैसे कुएँ में पत्थर गिरे… और गूँज नीचे तक जाए। और वह नीचे वाला यज्ञ? अभी बुझा नहीं।",
+      "causes": [
+        {
+          "fromId": "naimisha-satra",
+          "type": "vow/revenge",
+          "importance": "minor",
+          "noteHi": "शौनक की सभा ही वह स्थान है जहाँ सौति यह श्रृंखला खोलते हैं — कारण नहीं, पात्र।"
+        }
+      ],
+      "characterIds": [
+        "vyasa",
+        "vaishampayana",
+        "ugrashravas",
+        "janamejaya"
+      ],
+      "placeHi": "निमिष / जनमेजय का यज्ञ (सुनने की दो परतें)",
+      "placeEn": "Naimisha / Janamejaya's sacrifice (two listening layers)",
+      "artworkId": null,
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Anukramanika",
+        "section": "Section I",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01001.htm"
+      },
+      "id": "vyasa-vaishampayana",
+      "titleHi": "व्यास रचते हैं, वैशम्पायन सुनाते हैं",
+      "titleEn": "Vyasa composes; Vaishampayana recites",
+      "band": 0,
+      "t": 0.48,
+      "frameId": "naimisha"
+    },
+    {
+      "tellingOrder": 4,
+      "summaryHi": "उच्चैःश्रवा की पूँछ पर बाज़ी। कद्रू छल करती हैं। विनता दासी होती हैं। नागों पर सर्पसत्र का शाप पड़ता है।",
+      "summaryEn": "A wager on Uchchaihshravas’s tail. Kadru cheats. Vinata is enslaved. The nagas are cursed toward the snake sacrifice.",
+      "detailHi": "कश्यप की पत्नियाँ कद्रू और विनता समुद्र-मन्थन से निकले घोड़े उच्चैःश्रवा का रंग देखकर शर्त बाँधती हैं — पूँछ श्वेत है या कृष्ण। हारने वाली दूसरी की दासी बनेगी।\n\nपूँछ श्वेत थी। कद्रू अपने नाग-पुत्रों से कहती हैं कि वे पूँछ से लिपट जाएँ, ताकि दूर से काली दिखे। कई पुत्र मना करते हैं; क्रोध में कद्रू उन्हें शाप देती हैं कि जनमेजय के सर्पसत्र में वे भस्म होंगे। ब्रह्मा वह शाप स्थिर करते हैं। फिर नाग कद्रू की बात मान लेते हैं, विनता हारती हैं, दासी बनती हैं।\n\nअरुण का अधूरा जन्म और माँ को दास्य का शाप — यह भूमि तैयार करता है, पर दास्य का तात्कालिक कारण बाज़ी और छल है, केवल अरुण का वचन नहीं। दो बातें मिलाकर एक कारण मत समझिए।",
+      "detailEn": "The slavery follows the wager and Kadru’s deceit, not Aruna’s curse alone. Kadru also curses her refusing sons to burn in Janamejaya’s sacrifice; Brahmā lets that curse stand.",
+      "listenHi": "कश्यप की दो पत्नियाँ। कद्रू। और विनता। समुद्र से निकले घोड़े उच्चैःश्रवा को देखकर शर्त बाँधती हैं। पूँछ सफेद है… या काली? हारने वाली दासी बनेगी। पूँछ सफेद थी! सूरज की तरह साफ। कद्रू नाग-बेटों से कहती हैं — लिपट जाओ पूँछ से। दूर से काली दिखे। कई बेटे मना करते हैं। माँ का गुस्सा शाप बन जाता है। जनमेजय के सर्पसत्र में जलोगे! और ब्रह्मा उसे रोकते नहीं। फिर नाग मान लेते हैं। विनता हारकर दासी हो जाती हैं। एक बाज़ी। एक छल। नागों की आग अभी जली नहीं… केवल बोई गई।",
+      "causes": [],
+      "characterIds": [
+        "kadru",
+        "vinata",
+        "kashyapa",
+        "aruna"
+      ],
+      "placeHi": "आदि-काल, समुद्र-मन्थन के बाद",
+      "placeEn": "Primordial time, after the churning of the ocean",
+      "artworkId": "garuda-lakshmi",
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Sections XX–XXIII",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01020.htm"
+      },
+      "id": "kadru-vinata-wager",
+      "titleHi": "कद्रू-विनता की बाज़ी",
+      "titleEn": "Kadru and Vinata’s wager",
+      "band": 2,
+      "t": 0.1,
+      "frameId": "astika-upakhyana"
+    },
+    {
+      "tellingOrder": 5,
+      "summaryHi": "माँ को दास्य से छुड़ाने गरुड़ अमृत लाते हैं। इन्द्र उसे वापस ले लेते हैं। नागों की जीभ द्विधा हो जाती है। शाप नहीं मिटता।",
+      "summaryEn": "Garuda brings amrita to free Vinata. Indra recovers it. The snakes’ tongues split. The curse is not undone.",
+      "detailHi": "गरुड़, विनता के दूसरे पुत्र, माँ का दास्य तोड़ने को नागों से पूछते हैं — मूल्य क्या है। नाग अमृत माँगते हैं, यह सोचकर कि अमर होने पर सर्पसत्र उन्हें नहीं जलाएगा।\n\nगरुड़ देवों के रक्षकों को चीरते हुए अमृत ले आते हैं। इन्द्र से मैत्री होती है: गरुड़ नागों को अमृत दिखाने के बाद स्नान के बहाने उन्हें दूर भेज देते हैं; इन्द्र अमृत उठा लेते हैं। लौटकर नाग कुश चाटते हैं, अमृत नहीं मिलता, जीभ कटकर दो हो जाती है।\n\nयह एक पूरा उपाख्यान है। इस पाठ में एक ही दावा रखें: अमृत से शाप नहीं कटा। नागों को दूसरा मार्ग चाहिए था।",
+      "detailEn": "One claim: stealing amrita does not cancel Kadru’s curse. Forked tongues are a leftover of licking the kuśa where the nectar had been.",
+      "listenHi": "गरुड़ माँ विनता को दासी देखकर नागों से पूछते हैं। छुटकारे की कीमत क्या है? नाग कहते हैं — अमृत लाओ! सोचते हैं, अमर हो गए तो सर्पसत्र की आग क्या करेगी। गरुड़ स्वर्ग चीरकर अमृत ले आते हैं। पर इन्द्र से बात हो जाती है। नाग स्नान को जाते हैं। कुश पर अमृत की बूँद पड़ी रहती है। इन्द्र उसे उठा लेते हैं। लौटकर नाग घास चाटते हैं। अमृत नहीं! केवल गंध। जीभ कटकर दो हो जाती है। माँ छूटी। शाप? वैसा का वैसा रहा। तो अब कौन बचाएगा? अमृत नहीं बचा पाया।",
+      "causes": [
+        {
+          "fromId": "kadru-vinata-wager",
+          "type": "birth/lineage",
+          "importance": "spine",
+          "noteHi": "विनता की दासता — बाज़ी का फल — गरुड़ को अमृत की ओर धकेलती है।"
+        }
+      ],
+      "characterIds": [
+        "garuda",
+        "vinata",
+        "indra",
+        "kadru"
+      ],
+      "placeHi": "स्वर्ग और नागों का स्थान",
+      "placeEn": "Heaven and the naga realm",
+      "artworkId": "garuda-lakshmi",
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Sections XXIX–XXXIV",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01029.htm"
+      },
+      "id": "garuda-amrita",
+      "titleHi": "गरुड़ अमृत लाते हैं",
+      "titleEn": "Garuda fetches the amrita",
+      "band": 2,
+      "t": 0.32,
+      "frameId": "astika-upakhyana"
+    },
+    {
+      "tellingOrder": 6,
+      "summaryHi": "नाग सभा में उपाय सोचते हैं। ऐलापत्र कहते हैं: सत्र होगा ही; उसे रोकने वाला जरत्कारु-पुत्र आस्तीक होगा।",
+      "summaryEn": "The nagas debate escapes. Elapatra says the sacrifice will happen; Jaratkaru’s son Astika will stop it.",
+      "detailHi": "अमृत-योजना गिरने के बाद नाग डरे हुए हैं। कोई कहता है पुरोहितों को डसो, कोई कहता है आग बुझा दो, कोई कहता है जनमेजय को ही मार डालो। वासुकि इन्हें वही वृत्ति बताते हैं जिसके कारण शाप स्थिर हुआ।\n\nऐलापत्र — जो कद्रू के शाप के समय ब्रह्मा के वचन सुन चुके थे — कहते हैं: होनी टलेगी नहीं। सर्पसत्र लगेगा। पर ब्रह्मा ने यह भी कहा था कि यज्ञ पूरा न होगा। ऋषि जरत्कारु का पुत्र आस्तीक उसे रोकेगा।\n\nयहाँ भाग्य केवल घोषणा है। उसे सम्भव बनाने के लिए आस्तीक का जन्म अभी बाकी है।",
+      "detailEn": "Elapatra reports Brahmā: the sattra will occur, and a son of Jaratkaru named Āstīka will interrupt it. Destiny still has to be arranged.",
+      "listenHi": "नागों की सभा में अँधेरा है। फुफकार है। डर है। कोई कहता है — पुरोहितों को डसो! कोई कहता है — यज्ञ की आग बुझा दो! कोई कहता है — जनमेजय को ही मार डालो! क्या यही उपाय है? वासुकि सिर हिलाते हैं। यही स्वभाव तो शाप बन चुका। ऐलापत्र बोलते हैं। उन्होंने ब्रह्मा का वचन सुन रखा है। सत्र होगा ही। टलेगा नहीं। पर पूरा भी न होगा। ऋषि जरत्कारु का पुत्र आस्तीक उसे थामेगा। नाम आ गया… शरीर अभी नहीं। अब उस बच्चे को जन्म देना होगा। नहीं तो आग अकेली रहेगी।",
+      "causes": [
+        {
+          "fromId": "kadru-vinata-wager",
+          "type": "curse",
+          "importance": "spine",
+          "noteHi": "कद्रू का शाप और ब्रह्मा का समर्थन — यही घोषणा ऐलापत्र दोहराते हैं।"
+        },
+        {
+          "fromId": "garuda-amrita",
+          "type": "vow/revenge",
+          "importance": "minor",
+          "noteHi": "अमृत से मुक्ति न मिली, इसलिए नाग सभा और ऐलापत्र का मार्ग खुलता है।"
+        }
+      ],
+      "characterIds": [
+        "elapatra",
+        "vasuki"
+      ],
+      "placeHi": "नागों की सभा",
+      "placeEn": "Assembly of the nagas",
+      "artworkId": null,
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Section XXXVIII",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01038.htm"
+      },
+      "id": "elapatra-prophecy",
+      "titleHi": "ऐलापत्र का वचन",
+      "titleEn": "Elapatra’s prophecy",
+      "band": 2,
+      "t": 0.52,
+      "frameId": "astika-upakhyana"
+    },
+    {
+      "tellingOrder": 7,
+      "summaryHi": "ब्रह्मचारी ऋषि जरत्कारु, शर्तों के साथ, नाग-कन्या जरत्कारु (वासुकि की बहन) से विवाह करते हैं। पुत्र आस्तीक जन्म लेता है।",
+      "summaryEn": "The celibate sage Jaratkaru marries, under his own terms, the naga maiden Jaratkaru, Vasuki’s sister. Their son is Astika.",
+      "detailHi": "ऋषि जरत्कारु संन्यास चाहते हैं। पूर्वज उन्हें उल्टा लटके दिखाई देते हैं: वंश आगे न बढ़ा तो उनकी गति रुक जाएगी। ऋषि विवाह मानते हैं, दो शर्तों पर — कन्या का नाम भी जरत्कारु हो, और वह स्वयं आए।\n\nनागों में वासुकि की बहन का नाम जरत्कारु है। शर्तें पूरी होती हैं। बाद में ऋषि पत्नी को छोड़ भी देते हैं; आस्तीक को नाग-माता पालती हैं, इसी उद्देश्य से कि वह सर्पसत्र थाम सके।\n\nदो जरत्कारु हैं — ऋषि और नागकन्या। एक नाम, दो पात्र। ग्राफ में इन्हें मिलाइए नहीं।",
+      "detailEn": "Two Jaratkarus: the sage and Vasuki’s sister. The marriage satisfies the sage’s impossible conditions so Āstīka can exist. Later desertion is a note, not a separate Phase-1 node.",
+      "listenHi": "ऋषि जरत्कारु विवाह नहीं चाहते। फिर पूर्वज दिखते हैं। उल्टे लटके। वंश रुकने से सूखे। ऋषि दो शर्त रखते हैं। कन्या का नाम भी जरत्कारु हो। और वह स्वयं आए। सुनो! नाम एक है। पात्र दो। नागराज वासुकि की बहन का नाम जरत्कारु है। वह स्वयं आती है। विवाह हो जाता है। पुत्र जन्म लेता है — आस्तीक! ऋषि बाद में चले भी जाते हैं। माँ नाग-कन्या बच्चे को इसी सोच से पालती है… यही सर्पसत्र रोक सकेगा। पर रोकने के लिए पहले कोई आग तो जले।",
+      "causes": [
+        {
+          "fromId": "elapatra-prophecy",
+          "type": "birth/lineage",
+          "importance": "spine",
+          "noteHi": "ऐलापत्र का वचन तभी फलता है जब जरत्कारु-दम्पति से आस्तीक जन्म ले।"
+        }
+      ],
+      "characterIds": [
+        "jaratkaru-rishi",
+        "jaratkaru-naga",
+        "vasuki",
+        "astika"
+      ],
+      "placeHi": "नाग-लोक / जरत्कारु का आश्रम",
+      "placeEn": "Naga realm / Jaratkaru’s hermitage",
+      "artworkId": null,
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Sections XLV–XLVIII",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01045.htm"
+      },
+      "id": "astika-born",
+      "titleHi": "आस्तीक का जन्म",
+      "titleEn": "Astika is born",
+      "band": 2,
+      "t": 0.74,
+      "frameId": "astika-upakhyana"
+    },
+    {
+      "tellingOrder": 1,
+      "summaryHi": "राजा परीक्षित मौन ऋषि शमीक के गले मरा सर्प डालते हैं। पुत्र शृङ्गी शाप देते हैं: सात दिन में तक्षक डसेगा।",
+      "summaryEn": "King Parikshit drapes a dead snake on the silent sage Shamika. Shamika’s son Shringin curses: Takshaka will bite the king in seven days.",
+      "detailHi": "कुरु वंश में परीक्षित — अभिमन्यु के पुत्र, अर्जुन के पौत्र — शिकार पर घायल हरिण खोजते हुए शमीक को पाते हैं। ऋषि मौन व्रत में हैं, उत्तर नहीं देते। अपमान में राजा उनके गले एक मरा सर्प डालकर चले जाते हैं।\n\nशमीक क्रोध नहीं करते। उनके पुत्र शृङ्गी करते हैं। शाप लगता है: सातवें दिन तक्षक राजा को डसेगा।\n\nजनमेजय की वंशावली (अर्जुन → अभिमन्यु → परीक्षित → जनमेजय) यहाँ घटना नहीं, सूत्र है। घटना यह अपमान और यह शाप है।",
+      "detailEn": "The curse, not the pedigree, is the event. Shringin’s anger, not Shamika’s, sentences Parikshit to Takshaka.",
+      "listenHi": "सुनो! राजा परीक्षित। अभिमन्यु का बेटा। अर्जुन का पोता। शिकार पर घायल हरिण खोजते हुए आश्रम पहुँचते हैं। शमीक बैठे हैं। मौन व्रत। मुँह बंद। राजा पूछते हैं… उत्तर नहीं आता। गर्मी। प्यास। गुस्सा! गले में एक मरा सर्प डाल देते हैं, जैसे हँसी हो… और चल देते हैं। क्या मौन अपमान होता है? शमीक क्रोध नहीं करते। उनके पुत्र शृङ्गी करते हैं। शाप गिरता है! सातवें दिन तक्षक डसेगा। एक मरा साँप। एक ज़िंदा शाप। कुरु घर की आग… यहीं से सुगबुगाती है।",
+      "causes": [],
+      "characterIds": [
+        "parikshit",
+        "shamika",
+        "shringin",
+        "takshaka"
+      ],
+      "placeHi": "शमीक का आश्रम",
+      "placeEn": "Shamika’s hermitage",
+      "artworkId": "uttanka-takshaka",
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Sections XL–XLIII",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01040.htm"
+      },
+      "id": "parikshit-shamika",
+      "titleHi": "परीक्षित और मरा सर्प",
+      "titleEn": "Parikshit and the dead snake",
+      "band": 1,
+      "t": 0.18,
+      "frameId": "janamejaya-satra"
+    },
+    {
+      "tellingOrder": 2,
+      "summaryHi": "रक्षा और मन्त्रों के बावजूद तक्षक शाप पूरा करते हैं। परीक्षित मरते हैं। बालक जनमेजय सिंहासन पाते हैं।",
+      "summaryEn": "Despite guards and mantras, Takshaka fulfils the curse. Parikshit dies. Young Janamejaya inherits the throne.",
+      "detailHi": "सात दिन राजा छिपते हैं, विष-विद्या बुलाई जाती है। तक्षक छल से पहुँचते हैं — कथा में वे फल या ब्राह्मण के रूप में भीतर आते हैं — और डस लेते हैं। शाप केवल घोषणा नहीं रह जाता, शरीर पर उतरता है।\n\nचित्र में तक्षक दिखते हैं, पर वह पत्र उत्तङ्क की कथा का है, परीक्षित की मृत्यु का नहीं। नागराज वही हैं; प्रसंग अलग है।\n\nपुत्र जनमेजय पिता का वध सर्पमात्र पर उतारेंगे। एक मृत्यु, एक राज्य-यज्ञ।",
+      "detailEn": "The bite converts Shringin’s curse into a death Janamejaya can answer with a rite against all snakes.",
+      "listenHi": "सात दिन राजा छिपते हैं। मन्त्र। पहरे। विष-विद्या। सब बुलाए जाते हैं। क्या दीवार शाप रोकती है? तक्षक छल से भीतर आते हैं। कथा कहती है — फल बनकर। ब्राह्मण बनकर। दाँत लगते हैं! विष उतरता है। परीक्षित गिरते हैं। शाप अब केवल शब्द नहीं रहा। शरीर पर बैठ गया। छोटा जनमेजय सिंहासन पर बैठता है। पिता की मृत्यु कान में गूँजती रहती है। यह गूँज शांत नहीं होगी। यह यज्ञ बनेगी। एक नाग के लिए नहीं!",
+      "causes": [
+        {
+          "fromId": "parikshit-shamika",
+          "type": "curse",
+          "importance": "spine",
+          "noteHi": "शृङ्गी का शाप तक्षक को नियत करता है; डसना उसी शाप का शरीर है।"
+        }
+      ],
+      "characterIds": [
+        "takshaka",
+        "parikshit",
+        "janamejaya"
+      ],
+      "placeHi": "हस्तिनापुर, परीक्षित का रक्षा-गृह",
+      "placeEn": "Hastinapura, Parikshit’s guarded house",
+      "artworkId": "uttanka-takshaka",
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Sections XLII–XLIII",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01042.htm"
+      },
+      "id": "takshaka-kills-parikshit",
+      "titleHi": "तक्षक परीक्षित को डसते हैं",
+      "titleEn": "Takshaka kills Parikshit",
+      "band": 1,
+      "t": 0.4,
+      "frameId": "janamejaya-satra"
+    },
+    {
+      "tellingOrder": 3,
+      "summaryHi": "बदला एक नाग से नहीं — सर्पमात्र से। मन्त्र नागों को अग्नि में खींचते हैं। तक्षक अभी बचा हुआ है।",
+      "summaryEn": "Revenge is aimed at the whole serpent race. Mantras drag nagas into the fire. Takshaka is still at large.",
+      "detailHi": "जनमेजय, पिता-वध सुनकर, सर्पसत्र रचते हैं। होत्र मन्त्र से नागों के नाम लेते हैं; वे आकाश से खिंचकर कुण्ड में गिरते हैं।\n\nयह यज्ञ केवल तक्षक पर नहीं है — इसीलिए कद्रू का पुराना शाप यहाँ जागता है। जो नाग उस शाप के भागी थे, वे इस आग में सिद्ध होते हैं।\n\nइसी सत्र में वैशम्पायन भारत सुनाएँगे। यज्ञ एक साथ वध है और कथा का रंगमंच। तक्षक इन्द्र की शरण में छिपा है; यज्ञ उसके बिना अधूरा माना जाता है।",
+      "detailEn": "The sattra is both massacre and the inner frame’s theatre: Vaishampayana recites here. Kadru’s ancient curse and Janamejaya’s grief share one fire.",
+      "listenHi": "जनमेजय पिता का हिसाब एक तक्षक से नहीं लेते। सर्पसत्र रचते हैं — सारी जाति से! होत्र नाम लेते हैं। आकाश से नाग खिंचकर कुण्ड में गिरते हैं। चर्बी की गंध। चीख! बहुत पुरानी कद्रू का शाप और यह नया कुरु-क्रोध… एक ही आग में मिल जाते हैं। इसी यज्ञ के मंडप में वैशम्पायन भारत भी सुनाएँगे। वध और कथा… एक जगह। पर तक्षक? वह अभी नहीं गिरा। इन्द्र की शरण में छिपा है। यज्ञ उसके बिना अधूरा माना जाता है। द्वार पर कोई बालक खड़ा होने वाला है।",
+      "causes": [
+        {
+          "fromId": "takshaka-kills-parikshit",
+          "type": "vow/revenge",
+          "importance": "spine",
+          "noteHi": "पिता की मृत्यु — जनमेजय के यज्ञ का तात्कालिक कारण।"
+        },
+        {
+          "fromId": "kadru-vinata-wager",
+          "type": "curse",
+          "importance": "spine",
+          "noteHi": "कद्रू ने बहुत पहले कहा था कि उसके पुत्र इसी सत्र में जलेंगे।"
+        },
+        {
+          "fromId": "vyasa-vaishampayana",
+          "type": "birth/lineage",
+          "importance": "minor",
+          "noteHi": "यही सत्र वैशम्पायन की कथा का पात्र भी है — वध और श्रवण एक जगह।"
+        }
+      ],
+      "characterIds": [
+        "janamejaya",
+        "vaishampayana",
+        "takshaka",
+        "vyasa"
+      ],
+      "placeHi": "जनमेजय का यज्ञ-स्थल",
+      "placeEn": "Janamejaya’s sacrificial ground",
+      "artworkId": null,
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Sections XLIX–LII",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01049.htm"
+      },
+      "id": "janamejaya-sarpa-satra",
+      "titleHi": "जनमेजय का सर्पसत्र",
+      "titleEn": "Janamejaya’s snake sacrifice",
+      "band": 1,
+      "t": 0.62,
+      "frameId": "janamejaya-satra"
+    },
+    {
+      "tellingOrder": 8,
+      "summaryHi": "बालक आस्तीक राजा को स्तुति से वर माँगने योग्य बनाते हैं। वर है: यज्ञ रुक जाए। तक्षक अधर में ठहरता है। दोनों रीढ़ यहाँ मिलती हैं।",
+      "summaryEn": "Young Astika wins a boon by praise. He asks that the sacrifice stop. Takshaka hangs in mid-air. Both causal spines meet here.",
+      "detailHi": "आस्तीक, अभी बालक, द्वार से भीतर जाते हैं। वे जनमेजय की स्तुति ऐसे करते हैं कि राजा वर देने को तैयार हो जाते हैं। उसी क्षण तक्षक इन्द्र सहित खिंचने लगता है।\n\nआस्तीक कहते हैं — सत्र बंद हो। राजा सोना, गौ, कुछ भी और देने को कहते हैं। आस्तीक बन्धुओं की रक्षा के सिवा कुछ नहीं माँगते। सभा राजा से वचन निभाने को कहती है। जनमेजय यज्ञ रोकते हैं। तक्षक भूमि पर गिरता है, नहीं जलता।\n\nऊपर की पट्टी में नाग-शाप ने आस्तीक को जन्म दिया। इस पट्टी में कुरु-क्रोध ने आग जलाई। एक बालक दोनों को एक साथ थामता है। इसी जगह वैशम्पायन की कथा भी चलती रहती है — क्योंकि यज्ञ अब कथा का घर है, केवल वध का नहीं।",
+      "detailEn": "Convergence node. Naga-doom produced Āstīka; Kuru-revenge produced the fire. The boon stops the rite. The telling continues in the same assembly.",
+      "listenHi": "बालक आस्तीक द्वार से भीतर जाते हैं। स्तुति ऐसी… कि जनमेजय वर देने को तैयार। उसी क्षण तक्षक इन्द्र समेत खिंचने लगता है। आग के ऊपर! अधर में लटका। आस्तीक कहते हैं — सत्र रुक जाए! राजा सोना देते हैं। गौ देते हैं। और क्या लोगे? आस्तीक बन्धुओं की जान के सिवा कुछ नहीं माँगते। सभा कहती है — वचन निभो! जनमेजय आग थामते हैं। तक्षक भूमि पर गिरता है… नहीं जलता। कद्रू का शाप थमा। परीक्षित का बदला थमा। मिटे नहीं। थमे। और इसी सभा में कथा चलती रहती है। क्योंकि यज्ञ अब केवल वध नहीं रहा।",
+      "causes": [
+        {
+          "fromId": "astika-born",
+          "type": "birth/lineage",
+          "importance": "spine",
+          "noteHi": "आस्तीक के बिना वर माँगने वाला नहीं।"
+        },
+        {
+          "fromId": "janamejaya-sarpa-satra",
+          "type": "vow/revenge",
+          "importance": "spine",
+          "noteHi": "यज्ञ चल रहा है, तभी उसे रोका जा सकता है।"
+        },
+        {
+          "fromId": "elapatra-prophecy",
+          "type": "curse",
+          "importance": "minor",
+          "noteHi": "ब्रह्मा का पुराना वचन यहीं शरीर लेता है: सत्र होगा, पूरा न होगा।"
+        }
+      ],
+      "characterIds": [
+        "astika",
+        "janamejaya",
+        "takshaka"
+      ],
+      "placeHi": "सर्पसत्र का कुण्ड",
+      "placeEn": "The snake-sacrifice altar",
+      "artworkId": null,
+      "source": {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "parva": "Adi Parva, Astika Parva",
+        "section": "Sections LIII–LVIII",
+        "translator": "Kisari Mohan Ganguli",
+        "year": "1883–1896",
+        "url": "https://www.sacred-texts.com/hin/m01/m01053.htm"
+      },
+      "id": "astika-stops-satra",
+      "titleHi": "आस्तीक सत्र रोकते हैं",
+      "titleEn": "Astika stops the sacrifice",
+      "band": 1,
+      "t": 0.88,
+      "frameId": "janamejaya-satra"
+    }
+  ]
+}

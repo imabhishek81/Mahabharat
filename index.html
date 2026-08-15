@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>महाभारत-कथाचक्र</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+  <div id="gate">
+    <div class="gate-inner">
+      <p class="kicker">महाभारत-कथाचक्र</p>
+      <h1>यह युद्ध नहीं। यह गुस्सा है।</h1>
+      <p class="hint">एक मरा सर्प। एक राजा का अपमान। कथा वहीं से खुलती है।</p>
+      <button type="button" id="btn-open">कथा चलाओ</button>
+    </div>
+  </div>
+
+  <div id="unfurl" aria-hidden="true"></div>
+
+  <header class="hud-mark">महाभारत-कथाचक्र</header>
+  <p class="hud-where" id="hud-where">आस्तीक-उपाख्यान · मोहर चुनो</p>
+  <button type="button" class="hud-mute" id="btn-mute" hidden>तन्पुरा</button>
+  <div class="swar" id="swar">
+    <button type="button" class="swar-bead" data-swar="tanpura" title="तन्पुरा">तन्पुरा</button>
+    <button type="button" class="swar-bead" data-swar="bansuri" title="बाँसुरी">बाँसुरी</button>
+    <button type="button" class="swar-bead" data-swar="mridang" title="मृदंग">मृदंग</button>
+    <button type="button" class="swar-bead" data-swar="silence" title="मौन">मौन</button>
+  </div>
+  <p id="map-hint" hidden>यह गुस्सा है — जगमगाती मोहर से कथा शुरू होती है</p>
+
+  <div id="map-wrap">
+    <div id="world">
+      <img class="folio" src="art/bg/parchment-map.jpg" alt="" />
+      <p class="region r0">निमिष — श्रवण</p>
+      <p class="region r1">सर्पसत्र — आग</p>
+      <p class="region r2">आदि-कथा — नाग</p>
+      <svg id="inks" viewBox="0 0 2800 1800" preserveAspectRatio="none"></svg>
+      <div id="chips"></div>
+      <div id="seals"></div>
+    </div>
+  </div>
+
+  <div id="reveal" hidden>
+    <img id="reveal-scene" alt="" />
+    <div class="reveal-veil"></div>
+    <button type="button" class="back-map" id="btn-reveal-map">कथाचक्र</button>
+    <div class="gold-dust" id="dust"></div>
+    <div class="reveal-copy">
+      <p class="reveal-step" id="reveal-step"></p>
+      <p class="reveal-event" id="reveal-event"></p>
+      <div class="reveal-people" id="reveal-people"></div>
+      <p class="reveal-skip">आगे बढ़ो — कथा चल रही है</p>
+    </div>
+  </div>
+
+  <div id="cinema" hidden>
+    <img class="cinema-bg" id="cinema-bg" alt="" />
+    <div class="cinema-veil"></div>
+    <button type="button" class="back-map" id="btn-map">कथाचक्र</button>
+    <div class="cinema-bar">
+      <div class="bar-left">
+        <button type="button" class="sunno" id="btn-listen" aria-pressed="false">सुनो</button>
+        <div class="causes" id="cinema-causes"></div>
+      </div>
+      <p id="sub-line"></p>
+      <button type="button" class="cliff" id="btn-next">
+        <img id="cliff-img" alt="" />
+        <span id="cliff-text"></span>
+      </button>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

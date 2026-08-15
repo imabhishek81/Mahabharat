@@ -1,0 +1,31 @@
+{
+  "frames": [
+    {
+      "id": "naimisha",
+      "parentId": null,
+      "narratorId": "ugrashravas",
+      "audienceId": "shaunaka",
+      "labelHi": "निमिषारण्य",
+      "labelEn": "Naimisha forest",
+      "noteHi": "शौनक कुलपति के बारह-वर्षीय सत्र में उग्रश्रवा सौति कथा सुनाते हैं। महाभारत यहाँ पहले ही घट चुकी है — यह सुनने का समय है।"
+    },
+    {
+      "id": "janamejaya-satra",
+      "parentId": "naimisha",
+      "narratorId": "vaishampayana",
+      "audienceId": "janamejaya",
+      "labelHi": "जनमेजय का सर्पसत्र",
+      "labelEn": "Janamejaya's snake sacrifice",
+      "noteHi": "सौति ने यह कथा जनमेजय के यज्ञ में वैशम्पायन के मुख से सुनी थी। व्यास के शिष्य राजा के सामने भारत सुनाते हैं।"
+    },
+    {
+      "id": "astika-upakhyana",
+      "parentId": "janamejaya-satra",
+      "narratorId": "vaishampayana",
+      "audienceId": "janamejaya",
+      "labelHi": "आस्तीक-उपाख्यान",
+      "labelEn": "Astika episode",
+      "noteHi": "सर्पसत्र क्यों ठहरा — कद्रू का शाप, गरुड़, ऐलापत्र का वचन, और जरत्कारु-पुत्र आस्तीक।"
+    }
+  ]
+}

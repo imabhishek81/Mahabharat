@@ -1,0 +1,24 @@
+{
+  "artworks": [
+    {
+      "id": "garuda-lakshmi",
+      "file": "art/garuda-vishnu-lakshmi.jpg",
+      "titleHi": "गरुड़ पर नारायण और लक्ष्मी",
+      "titleEn": "Narayana and Lakshmi on Garuda",
+      "credit": "Rajasthan, c. 1730. Opaque watercolor, gold, and silver on paper. Wikimedia Commons.",
+      "license": "Public domain (PD-Art / expired copyright)",
+      "commonsFile": "File:Garuda Vishnu Laxmi.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garuda_Vishnu_Laxmi.jpg"
+    },
+    {
+      "id": "uttanka-takshaka",
+      "file": "art/uttanka-takshaka.jpg",
+      "titleHi": "उत्तङ्क और तक्षक — कर्णफूल का हरण",
+      "titleEn": "Uttanka in a river; Takshaka steals the earrings",
+      "credit": "Āsi, Razmnama folio, 1598. Ashmolean Museum EA1978.2591. Used here as a Takshaka / nāga miniature — this leaf is the Paushya episode, not Parikṣit’s death.",
+      "license": "Public domain (PD-Art, life + 100)",
+      "commonsFile": "File:The sage Uttanka in a river.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sage_Uttanka_in_a_river.jpg"
+    }
+  ]
+}
