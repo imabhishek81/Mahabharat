@@ -376,6 +376,17 @@ img { display: block; }
   object-fit: cover;
   filter: saturate(0.92) contrast(1.04);
   pointer-events: none;
+  z-index: 0;
+}
+
+/* Dynamic Map Animations (Living Serpents, Sacrificial Fire, Causal Energy) */
+#map-canvas {
+  position: absolute;
+  inset: 0;
+  width: 2800px;
+  height: 1800px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* ── Band region labels ─────────────────────────────────────────── */
