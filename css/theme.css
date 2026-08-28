@@ -53,93 +53,86 @@ img { display: block; }
   place-items: center;
   text-align: center;
   background:
-    /* subtle grain noise */
-    repeating-conic-gradient(
-      rgba(160, 120, 60, 0.025) 0% 25%, transparent 0% 50%
-    ) 0 0 / 4px 4px,
-    /* warm manuscript glow at center */
-    radial-gradient(ellipse at 50% 38%,
-      rgba(140, 85, 30, 0.35) 0%,
-      rgba(80, 40, 15, 0.2) 40%,
-      transparent 70%),
-    /* vignette */
-    radial-gradient(ellipse at 50% 50%,
-      transparent 35%,
-      rgba(10, 5, 2, 0.45) 100%),
-    /* base */
-    radial-gradient(ellipse at 50% 40%, #3d1e10 0%, var(--ink) 75%);
+    radial-gradient(ellipse at 50% 40%, #4a2110 0%, #200d07 55%, #0e0503 100%);
   overflow: hidden;
+}
+
+#gate::before {
+  content: "";
+  position: absolute;
+  inset: 20px;
+  border: 1px solid rgba(212, 168, 83, 0.25);
+  pointer-events: none;
 }
 
 .gate-inner {
   position: relative;
-  padding: 3.5rem 3rem;
-  max-width: 640px;
+  padding: 4rem 3.5rem;
+  max-width: 680px;
+  background: radial-gradient(ellipse at 50% 50%, rgba(45, 18, 9, 0.75) 0%, rgba(20, 8, 4, 0.9) 100%);
+  border: 2px solid var(--gold);
+  box-shadow:
+    0 0 0 6px rgba(107, 26, 18, 0.6),
+    0 0 0 8px rgba(212, 168, 83, 0.4),
+    0 24px 60px rgba(0, 0, 0, 0.8),
+    inset 0 0 30px rgba(107, 26, 18, 0.4);
 }
-/* Corner ornament: top-left & bottom-right */
+
+/* Ornate Corner Accents */
 .gate-inner::before,
 .gate-inner::after {
-  content: "";
+  content: "✤";
   position: absolute;
-  width: 56px;
-  height: 56px;
-  border-color: rgba(212, 168, 83, 0.28);
-  border-style: solid;
+  color: var(--gold-bright);
+  font-size: 1.2rem;
+  line-height: 1;
   pointer-events: none;
+  text-shadow: 0 0 10px rgba(240, 210, 122, 0.8);
 }
 .gate-inner::before {
-  top: 0; left: 0;
-  border-width: 1px 0 0 1px;
+  top: 8px; left: 10px;
 }
 .gate-inner::after {
-  bottom: 0; right: 0;
-  border-width: 0 1px 1px 0;
+  bottom: 8px; right: 10px;
 }
 
 .gate-inner h1 {
-  font-size: clamp(2.2rem, 7.5vw, 4.2rem);
-  margin: 0.3rem 0 0.7rem;
-  color: var(--gold);
-  letter-spacing: 0.08em;
+  font-size: clamp(2.4rem, 8vw, 4.4rem);
+  margin: 0.4rem 0 0.8rem;
+  color: var(--gold-bright);
+  letter-spacing: 0.06em;
   line-height: 1.2;
-  animation: titleGlow 4s ease-in-out infinite;
-}
-@keyframes titleGlow {
-  0%, 100% {
-    text-shadow:
-      0 0 24px rgba(212, 168, 83, 0.25),
-      0 0 48px rgba(212, 168, 83, 0.08);
-  }
-  50% {
-    text-shadow:
-      0 0 32px rgba(212, 168, 83, 0.45),
-      0 0 64px rgba(212, 168, 83, 0.15);
-  }
+  text-shadow:
+    0 0 20px rgba(240, 210, 122, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .kicker {
-  letter-spacing: 0.25em;
-  font-size: 0.88rem;
-  color: rgba(232, 201, 137, 0.7);
+  letter-spacing: 0.35em;
+  font-size: 0.92rem;
+  color: #e8c989;
   margin: 0;
   text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(212, 168, 83, 0.4);
 }
+
 .hint {
-  color: #d9b88a;
-  margin: 0 0 0.4rem;
-  font-size: 1.05rem;
-  line-height: 1.5;
+  color: #f0d5b0;
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 /* Ornamental gold divider */
 .gate-rule {
-  width: 180px;
+  width: 220px;
   height: 1px;
-  margin: 1.2rem auto 1.6rem;
+  margin: 1.5rem auto 1.8rem;
   background: linear-gradient(
     to right,
     transparent,
-    rgba(212, 168, 83, 0.5),
+    rgba(212, 168, 83, 0.8),
     transparent
   );
   position: relative;
@@ -150,36 +143,41 @@ img { display: block; }
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgba(212, 168, 83, 0.55);
-  font-size: 0.55rem;
+  color: var(--gold-bright);
+  font-size: 0.75rem;
   line-height: 1;
-  background: #2d1309;
-  padding: 0 0.6rem;
+  background: #240e06;
+  padding: 0 0.8rem;
+  text-shadow: 0 0 8px rgba(240, 210, 122, 0.8);
 }
 
 #btn-open {
-  background: rgba(107, 26, 18, 0.55);
-  color: var(--cream);
-  border: 2px solid var(--gold);
-  padding: 0.85rem 2.6rem;
-  font-size: 1.18rem;
-  letter-spacing: 0.18em;
-  transition: all 0.35s ease;
+  background: radial-gradient(ellipse at 50% 30%, #8c2317 0%, #52130c 100%);
+  color: #fff4db;
+  border: 2px solid var(--gold-bright);
+  padding: 0.9rem 3rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  transition: all 0.3s ease;
   box-shadow:
-    inset 0 1px 0 rgba(255, 220, 140, 0.12),
-    inset 0 -2px 4px rgba(0, 0, 0, 0.2),
-    0 4px 16px rgba(0, 0, 0, 0.35);
+    0 0 0 2px rgba(20, 7, 3, 0.8),
+    0 0 20px rgba(212, 168, 83, 0.35),
+    0 8px 24px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 235, 170, 0.4);
 }
 #btn-open:hover {
-  background: rgba(107, 26, 18, 0.8);
-  border-color: var(--gold-bright);
+  background: radial-gradient(ellipse at 50% 30%, #a82d1e 0%, #691a11 100%);
+  border-color: #fff;
+  transform: translateY(-2px) scale(1.03);
   box-shadow:
-    inset 0 1px 0 rgba(255, 220, 140, 0.2),
-    0 0 28px rgba(212, 168, 83, 0.3),
-    0 4px 16px rgba(0, 0, 0, 0.35);
+    0 0 0 2px rgba(20, 7, 3, 0.8),
+    0 0 35px rgba(240, 210, 122, 0.7),
+    0 12px 30px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 #btn-open:active {
-  transform: scale(0.97);
+  transform: translateY(1px) scale(0.98);
 }
 
 
@@ -702,24 +700,25 @@ body.in-cinema .swar {
 /* "कथाचक्र" back button */
 .back-map {
   position: absolute;
-  top: 14px; left: 14px;
-  z-index: 3;
-  background: rgba(26, 12, 8, 0.55);
-  color: var(--cream);
-  border: 1px solid rgba(212, 168, 83, 0.45);
-  padding: 0.4rem 1rem;
-  font-size: 0.88rem;
-  letter-spacing: 0.08em;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  top: 16px; left: 16px;
+  z-index: 10;
+  background: radial-gradient(ellipse at 50% 30%, rgba(60, 25, 12, 0.85), rgba(20, 8, 4, 0.95));
+  color: var(--gold-bright);
+  border: 1.5px solid var(--gold);
+  padding: 0.45rem 1.1rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 230, 160, 0.2);
 }
 .back-map:hover {
-  background: rgba(26, 12, 8, 0.8);
-  border-color: var(--gold);
-  box-shadow: 0 0 14px rgba(212, 168, 83, 0.2);
+  background: radial-gradient(ellipse at 50% 30%, rgba(100, 35, 16, 0.95), rgba(35, 12, 6, 0.95));
+  border-color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 0 20px rgba(240, 210, 122, 0.5), 0 6px 18px rgba(0, 0, 0, 0.7);
 }
-
 
 /* ── Cinema bottom bar ──────────────────────────────────────────── */
 .cinema-bar {
@@ -727,25 +726,26 @@ body.in-cinema .swar {
   left: 0; right: 0; bottom: 0;
   z-index: 4;
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) minmax(10rem, 24%);
+  grid-template-columns: auto minmax(0, 1fr) minmax(11rem, 25%);
   align-items: center;
-  gap: 0.7rem 0.9rem;
-  padding: 1rem 1.4rem 1.8rem;
+  gap: 0.8rem 1.2rem;
+  padding: 1.2rem 1.8rem 2rem;
   background: linear-gradient(to top,
-    rgba(6, 2, 1, 0.96) 0%,
-    rgba(6, 2, 1, 0.65) 65%,
-    transparent);
+    rgba(8, 3, 1, 0.98) 0%,
+    rgba(8, 3, 1, 0.8) 50%,
+    rgba(8, 3, 1, 0.3) 85%,
+    transparent 100%);
   overflow: hidden;
 }
 /* Gold hairline at the top of the bar */
 .cinema-bar::before {
   content: "";
   position: absolute;
-  top: 0; left: 6%; right: 6%;
+  top: 0; left: 4%; right: 4%;
   height: 1px;
   background: linear-gradient(to right,
     transparent,
-    rgba(212, 168, 83, 0.4),
+    rgba(240, 210, 122, 0.6),
     transparent);
   pointer-events: none;
 }
@@ -754,7 +754,7 @@ body.in-cinema .swar {
 .bar-left {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
   min-width: 0;
 }
 
@@ -763,18 +763,20 @@ body.in-cinema .swar {
   margin: 0;
   justify-self: center;
   width: 100%;
-  max-width: 46rem;
-  font-size: clamp(1.1rem, 2.3vw, 1.6rem);
-  line-height: 1.45;
-  color: #fff8ea;
+  max-width: 48rem;
+  font-size: clamp(1.15rem, 2.4vw, 1.65rem);
+  line-height: 1.5;
+  color: #fffaf0;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-  padding: 0.65rem 1.2rem;
-  background: rgba(18, 8, 4, 0.82);
-  border: 1px solid rgba(212, 168, 83, 0.35);
-  border-radius: 5px;
-  /* Double-border inner glow */
-  box-shadow: inset 0 0 0 1px rgba(212, 168, 83, 0.12);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 0.75rem 1.4rem;
+  background: radial-gradient(ellipse at 50% 50%, rgba(38, 16, 8, 0.92) 0%, rgba(18, 6, 3, 0.95) 100%);
+  border: 1.5px solid var(--gold);
+  border-radius: 4px;
+  box-shadow:
+    0 0 0 3px rgba(107, 26, 18, 0.4),
+    0 8px 24px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 230, 160, 0.2);
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
