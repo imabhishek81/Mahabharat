@@ -23,8 +23,29 @@ const state = {
   voice: null,
   speaking: false,
   player: null,
-  instrument: "tanpura"
+  instrument: "tanpura",
+  autoNextTimer: null
 };
+
+function clearAutoNext() {
+  if (state.autoNextTimer) {
+    clearTimeout(state.autoNextTimer);
+    state.autoNextTimer = null;
+  }
+}
+
+function scheduleAutoNext(delayMs = 15000) {
+  clearAutoNext();
+  state.autoNextTimer = setTimeout(() => {
+    if ($("#cinema").hidden) return;
+    const list = sorted();
+    const idx = list.findIndex((e) => e.id === state.selected);
+    const next = list[idx + 1];
+    if (next) {
+      openEvent(next.id);
+    }
+  }, delayMs);
+}
 
 function byId(list, id) {
   return list.find((x) => x.id === id);
@@ -333,11 +354,13 @@ async function showCinema(ev, autoHear) {
     $("#cliff-img").src = artOf(next).scene;
     $("#cliff-text").textContent = artOf(ev).hookNextHi || next.titleHi;
     cliff.onclick = () => {
+      clearAutoNext();
       openEvent(next.id);
     };
   } else {
     cliff.hidden = true;
   }
+  scheduleAutoNext(15000);
   if (autoHear) speakCurrent();
 }
 
@@ -398,6 +421,7 @@ async function speakCurrent() {
   setListenLabel(true);
   duckDrone(true);
 
+  clearAutoNext();
   const player = new Audio(`art/audio/${ev.id}.wav?v=11`);
   state.player = player;
   player.playbackRate = 1;
@@ -408,6 +432,7 @@ async function speakCurrent() {
     state.speaking = false;
     setListenLabel(false);
     duckDrone(false);
+    scheduleAutoNext(2500);
   });
   player.addEventListener("timeupdate", () => {
     if (!player.duration || !lines.length) return;
@@ -440,6 +465,7 @@ function speakBrowser(lines) {
       state.speaking = false;
       setListenLabel(false);
       duckDrone(false);
+      scheduleAutoNext(2500);
       return;
     }
     el.textContent = lines[i];
@@ -671,6 +697,7 @@ $("#btn-open").addEventListener("click", () => {
 
 function goMap(e) {
   e?.stopPropagation();
+  clearAutoNext();
   stopSpeech();
   document.body.classList.remove("in-cinema");
   $("#reveal").hidden = true;
