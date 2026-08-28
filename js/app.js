@@ -219,11 +219,12 @@ function showReveal(ev, charIds) {
   });
   const dust = $("#dust");
   dust.innerHTML = "";
-  for (let i = 0; i < 16; i++) {
+  for (let i = 0; i < 40; i++) {
     const s = document.createElement("span");
-    s.style.left = 10 + Math.random() * 80 + "%";
-    s.style.top = 40 + Math.random() * 50 + "%";
-    s.style.animationDelay = Math.random() * 0.8 + "s";
+    s.style.left = 5 + Math.random() * 90 + "%";
+    s.style.top = 30 + Math.random() * 55 + "%";
+    s.style.width = s.style.height = (3 + Math.random() * 4) + "px";
+    s.style.animationDelay = Math.random() * 1.2 + "s";
     dust.appendChild(s);
   }
   box.hidden = false;
@@ -234,7 +235,7 @@ function showReveal(ev, charIds) {
   box.addEventListener("click", close);
   window.setTimeout(() => {
     if (!box.hidden) close();
-  }, 2200);
+  }, 4500);
 }
 
 function sentences(text) {
