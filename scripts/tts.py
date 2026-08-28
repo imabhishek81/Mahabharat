@@ -1,4 +1,4 @@
-"""Generate narration. Prefers Sarvam Bulbul (speaker=priya) if SARVAM_API_KEY is set."""
+"""Generate narration. Uses Sarvam Bulbul (speaker=aditya) with Edge TTS MadhurNeural fallback."""
 import io
 import json
 import os
@@ -26,8 +26,7 @@ def load_dotenv():
 load_dotenv()
 KEY = os.environ.get("SARVAM_API_KEY") or os.environ.get("SARVAM_API_SUBSCRIPTION_KEY")
 
-
-GAP = 0.22
+GAP = 0.15
 
 
 def sentences(text):
@@ -52,6 +51,7 @@ def wav_duration(raw):
 
 def sarvam_once(text):
     import base64
+    import time
     import urllib.error
     import urllib.request
 
@@ -59,30 +59,39 @@ def sarvam_once(text):
         {
             "text": text[:2400],
             "language_code": "hi-IN",
-            "speaker": "priya",
+            "speaker": "aditya",
             "model": "bulbul:v3",
-            "pace": 0.9,
-            "temperature": 1.0,
+            "pace": 1.0,
+            "temperature": 0.6,
             "output_audio_codec": "wav",
             "speech_sample_rate": 24000,
         }
     ).encode()
-    req = urllib.request.Request(
-        "https://api.sarvam.ai/text-to-speech",
-        data=body,
-        headers={
-            "api-subscription-key": KEY,
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            data = json.loads(r.read().decode())
-    except urllib.error.HTTPError as e:
-        print("HTTP", e.code, e.read().decode("utf-8", errors="replace"))
-        raise
-    return base64.b64decode("".join(data["audios"]))
+    
+    for attempt in range(5):
+        req = urllib.request.Request(
+            "https://api.sarvam.ai/text-to-speech",
+            data=body,
+            headers={
+                "api-subscription-key": KEY,
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = json.loads(r.read().decode())
+                time.sleep(1.2)  # stay under rate limit
+                return base64.b64decode("".join(data["audios"]))
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait_time = 4 * (attempt + 1)
+                print(f"Rate limited (429). Retrying in {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                print("HTTP", e.code, e.read().decode("utf-8", errors="replace"))
+                raise
+    raise RuntimeError("Failed after 5 retries due to rate limit")
 
 
 def silence_wav(nframes, framerate, sampwidth, nchannels):
@@ -143,24 +152,35 @@ def sarvam(text, dest):
         json.dumps({"lines": lines, "starts": starts, "duration": round(t, 3)}, ensure_ascii=False),
         encoding="utf-8",
     )
-    print("sarvam", dest.name, dest.stat().st_size, "lines=", len(lines), "sec=", round(t, 1))
+    print("sarvam (aditya)", dest.name, dest.stat().st_size, "lines=", len(lines), "sec=", round(t, 1))
 
 
 async def edge(text, dest):
     import edge_tts
 
-    comm = edge_tts.Communicate(text, "hi-IN-SwaraNeural", rate="-12%")
+    lines = sentences(text)
+    comm = edge_tts.Communicate(text, "hi-IN-MadhurNeural", rate="+0%")
     await comm.save(str(dest))
-    print("edge", dest.name, dest.stat().st_size)
+    cues = dest.with_suffix(".cues.json")
+    cues.write_text(
+        json.dumps({"lines": lines, "starts": None, "duration": None}, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    print("edge (madhur)", dest.name, dest.stat().st_size)
 
 
 def main():
     import asyncio
+    import time
 
     OUT.mkdir(parents=True, exist_ok=True)
+    now = time.time()
     for ev in EVENTS:
         text = ev.get("listenHi") or ev.get("summaryHi")
         dest = OUT / f"{ev['id']}.wav"
+        if dest.exists() and (now - dest.stat().st_mtime < 1800):
+            print(f"Skipping already generated: {dest.name}")
+            continue
         if KEY:
             sarvam(text, dest)
         else:
@@ -169,3 +189,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
