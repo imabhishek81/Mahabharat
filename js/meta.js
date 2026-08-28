@@ -17,95 +17,95 @@ export const EVENT_ART = {
   "naimisha-satra": {
     scene: ART.naimisha,
     primary: "ugrashravas",
-    hookNextHi: "रुको — ये कथा किसी और के कान में चल रही है।"
+    hookNextHi: "ऋषि-सभा में गूँजती कृष्ण द्वैपायन व्यास की अमर वाणी।"
   },
   "vyasa-vaishampayana": {
     scene: ART.vyasa,
     primary: "vyasa",
-    hookNextHi: "महाभारत की शुरुआत: एक बच्चा, एक राजा, एक यज्ञ जो रुक गया। युद्ध अभी बाकी है।"
+    hookNextHi: "इतिहास की परम्परा: एक रचना, दो सभाएँ, और सनातन ज्ञान।"
   },
   "kadru-vinata-wager": {
     scene: ART.wager,
     primary: "kadru",
-    hookNextHi: "माँ ने अपने बच्चों को उसी आग में डाल दिया।"
+    hookNextHi: "उच्चैःश्रवा पर छल की बाज़ी और नागों पर महा-अग्नि का शाप।"
   },
   "garuda-amrita": {
     scene: ART.garuda,
     primary: "garuda",
-    hookNextHi: "अमर नहीं हुए। अब एक बच्चा चाहिए।"
+    hookNextHi: "अमृत भी शाप न काट सका; अब एक तपोनिष्ठ बालक की आवश्यकता है।"
   },
   "elapatra-prophecy": {
     scene: ART.elapatra,
     primary: "elapatra",
-    hookNextHi: "नाम आस्तीक है। शरीर अभी नहीं।"
+    hookNextHi: "ब्रह्माजी का अमर वचन: आस्तीक ही सर्पसत्र का निवारण करेगा।"
   },
   "astika-born": {
     scene: ART.astikaBorn,
     primary: "astika",
-    hookNextHi: "द्वार पर बालक। कुण्ड अभी जल रहा है।"
+    hookNextHi: "यज्ञशाला के द्वार पर वह बालक, जो प्रज्वलित अग्नि को थामेगा।"
   },
   "parikshit-shamika": {
     scene: ART.parikshit,
     primary: "parikshit",
-    hookNextHi: "सात दिन। राजा छिपेगा। साँप आएगा ही।"
+    hookNextHi: "सात दिन की अवधि: तक्षक का विष और कुरु-सिंहासन का संकट।"
   },
   "takshaka-kills-parikshit": {
     scene: ART.takshaka,
     primary: "takshaka",
-    hookNextHi: "बच्चा गद्दी पर है। वह एक नाग नहीं — जाति जलाएगा।"
+    hookNextHi: "पिता का वध: बालक जनमेजय का प्रतिशोध सम्पूर्ण नाग-जाति पर उतरेगा।"
   },
   "janamejaya-sarpa-satra": {
     scene: ART.satra,
     primary: "janamejaya",
-    hookNextHi: "यह आग नई नहीं। बहुत पहले एक माँ ने बोई थी।"
+    hookNextHi: "यह महा-अग्नि नई नहीं; युगों पूर्व नागमाता कद्रू ने इसे बोया था।"
   },
   "astika-stops-satra": {
     scene: ART.stops,
     primary: "astika",
-    hookNextHi: "यह कथा जंगल में सुनी जा रही है — युद्ध के बहुत बाद।"
+    hookNextHi: "नैमिषारण्य के तपोवन में इस अमर इतिहास का श्रवण।"
   }
 };
 
 export const CHAR_ART = {
   ugrashravas: {
     portrait: "art/characters/ugrashravas.jpg",
-    hookHi: "कथा का गायक। युद्ध पहले ही हो चुका है।"
+    hookHi: "पौराणिक सूत-पुत्र — प्राचीन इतिहास और गाथाओं के मर्मज्ञ वक्ता।"
   },
   janamejaya: {
     portrait: "art/characters/janamejaya.jpg",
-    hookHi: "पिता का बदला — एक यज्ञ, सारे नाग।"
+    hookHi: "परीक्षित-पुत्र चक्रवर्ती राजा — पिता के वध का प्रतिशोध लेने वाले।"
   },
   kadru: {
     portrait: "art/characters/kadru.jpg",
-    hookHi: "नागों की माता। बाज़ी, छल, और शाप।"
+    hookHi: "नागों की आदि-माता — छल की बाज़ी और कठोर शाप की दात्री।"
   },
   garuda: {
     portrait: "art/characters/garuda.jpg",
-    hookHi: "अमृत लाए। शाप फिर भी नहीं मिटा।"
+    hookHi: "पक्षीराज गरुड़ — स्वर्ग से अमृत छीनकर माता को मुक्त कराने वाले।"
   },
   takshaka: {
     portrait: "art/characters/takshaka.jpg",
-    hookHi: "शाप का दाँत। एक डस, एक राज्य-यज्ञ।"
+    hookHi: "नागराज तक्षक — शृङ्गी के शाप को सिद्ध करने वाले महाविषधर।"
   },
   astika: {
     portrait: "art/characters/astika.jpg",
-    hookHi: "बालक जिसने आग थामी।"
+    hookHi: "जरत्कारु-पुत्र मुनि आस्तीक — वेद-स्तुति से सर्पसत्र को थामने वाले।"
   },
   vyasa: {
     portrait: "art/characters/vyasa.jpg",
-    hookHi: "रचयिता — और वंश के भीतर भी बँधे।"
+    hookHi: "भगवान कृष्ण द्वैपायन व्यास — महाभारत-इतिहास के दिव्य रचयिता।"
   },
   parikshit: {
     portrait: "art/characters/parikshit.jpg",
-    hookHi: "एक मरा सर्प। एक राज्य का बीज।"
+    hookHi: "अभिमन्यु-पुत्र सम्राट परीक्षित — जिनके प्रमाद से इतिहास ने मोड़ लिया।"
   },
   elapatra: {
     portrait: "art/characters/elapatra.jpg",
-    hookHi: "सत्र होगा। आस्तीक उसे रोकेगा।"
+    hookHi: "ज्ञानी नाग ऐलापत्र — ब्रह्माजी के अभय-वचन को उद्घाटित करने वाले।"
   },
   vinata: {
     portrait: "art/characters/vinata.jpg",
-    hookHi: "बाज़ी हारी। गरुड़ की माँ दासी हुई।"
+    hookHi: "गरुड़ की माता — छल की बाज़ी में दासी बनीं प्रजापति-कन्या।"
   }
 };
 

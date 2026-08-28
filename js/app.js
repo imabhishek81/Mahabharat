@@ -48,7 +48,7 @@ function stepLabel(ev) {
 
 async function load() {
   const [ej, cj] = await Promise.all([
-    fetch("data/events.json").then((r) => r.json()),
+    fetch("data/events.json?v=3").then((r) => r.json()),
     fetch("data/characters.json").then((r) => r.json())
   ]);
   state.events = ej.events;
@@ -256,7 +256,7 @@ function sentences(text) {
 
 async function loadCues(ev) {
   try {
-    const r = await fetch(`art/audio/${ev.id}.cues.json?v=10`);
+    const r = await fetch(`art/audio/${ev.id}.cues.json?v=11`);
     if (!r.ok) throw new Error("no cues");
     const cues = await r.json();
     if (Array.isArray(cues.lines) && cues.lines.length) return cues;
@@ -398,7 +398,7 @@ async function speakCurrent() {
   setListenLabel(true);
   duckDrone(true);
 
-  const player = new Audio(`art/audio/${ev.id}.wav?v=10`);
+  const player = new Audio(`art/audio/${ev.id}.wav?v=11`);
   state.player = player;
   player.playbackRate = 1;
   player.addEventListener("error", () => {

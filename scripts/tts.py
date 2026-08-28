@@ -171,16 +171,11 @@ async def edge(text, dest):
 
 def main():
     import asyncio
-    import time
 
     OUT.mkdir(parents=True, exist_ok=True)
-    now = time.time()
     for ev in EVENTS:
         text = ev.get("listenHi") or ev.get("summaryHi")
         dest = OUT / f"{ev['id']}.wav"
-        if dest.exists() and (now - dest.stat().st_mtime < 1800):
-            print(f"Skipping already generated: {dest.name}")
-            continue
         if KEY:
             sarvam(text, dest)
         else:
