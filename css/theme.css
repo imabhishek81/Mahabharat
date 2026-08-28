@@ -25,6 +25,7 @@
 
 /* ── Reset & Base ───────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body {
   margin: 0;
   height: 100%;
@@ -52,7 +53,9 @@ img { display: block; }
   display: grid;
   place-items: center;
   text-align: center;
-  background: radial-gradient(ellipse at 50% 40%, #2c1208 0%, #150804 55%, #080301 100%);
+  background:
+    linear-gradient(135deg, rgba(14, 5, 2, 0.88) 0%, rgba(26, 9, 4, 0.82) 50%, rgba(10, 3, 1, 0.94) 100%),
+    url("../art/scenes/vyasa.jpg") center / cover no-repeat;
   overflow: hidden;
 }
 
@@ -819,6 +822,10 @@ body.in-cinema .swar {
 /* ════════════════════════════════════════════════════════════════ */
 /* CITATION & SOURCE MODAL DRAWER ("प्रमाण")                        */
 /* ════════════════════════════════════════════════════════════════ */
+#source-modal[hidden] {
+  display: none !important;
+}
+
 #source-modal {
   position: fixed;
   inset: 0;
