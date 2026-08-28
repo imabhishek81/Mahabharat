@@ -6,8 +6,11 @@ import {
   edgeColor,
   typeHi
 } from "./meta.js";
+import { StoryFX } from "./fx.js";
 
 const $ = (s) => document.querySelector(s);
+
+const fx = new StoryFX();
 
 const state = {
   events: [],
@@ -69,7 +72,7 @@ function stepLabel(ev) {
 
 async function load() {
   const [ej, cj] = await Promise.all([
-    fetch("data/events.json?v=3").then((r) => r.json()),
+    fetch("data/events.json?v=5").then((r) => r.json()),
     fetch("data/characters.json").then((r) => r.json())
   ]);
   state.events = ej.events;
@@ -318,6 +321,7 @@ async function showCinema(ev, autoHear) {
   $("#cinema").hidden = false;
   $("#cinema-bg").src = artOf(ev).scene;
   $("#hud-where").textContent = `${stepLabel(ev)} · ${ev.titleHi}`;
+  fx.setEvent(ev.id);
   const cues = await loadCues(ev);
   state.cues = cues;
   const lines = cues.lines;
@@ -392,6 +396,7 @@ function duckDrone(on) {
 
 function stopSpeech() {
   state.speaking = false;
+  fx.updateAudio(0, 0, false);
   window.speechSynthesis?.cancel();
   if (state.player) {
     state.player.pause();
@@ -432,6 +437,7 @@ async function speakCurrent() {
     state.speaking = false;
     setListenLabel(false);
     duckDrone(false);
+    fx.updateAudio(0, 0, false);
     scheduleAutoNext(2500);
   });
   player.addEventListener("timeupdate", () => {
@@ -441,6 +447,7 @@ async function speakCurrent() {
       el.dataset.i = String(i);
       el.textContent = lines[i];
     }
+    fx.updateAudio(player.currentTime, i, true);
   });
   const play = player.play();
   if (play && play.catch) {
@@ -709,6 +716,86 @@ function goMap(e) {
   highlight(state.selected);
 }
 
+function showSourceModal(eventId) {
+  const ev = byId(state.events, eventId) || state.events[0];
+  if (!ev) return;
+  const src = ev.source || {};
+
+  $("#source-title").textContent = `${ev.titleHi} — प्रामाणिक ग्रंथ संदर्भ`;
+  const body = $("#source-body");
+
+  body.innerHTML = `
+    ${
+      src.shlokaSanskrit
+        ? `
+      <div class="shloka-box">
+        <div class="meta-label">॥ मूल संस्कृत श्लोक ॥</div>
+        <p class="shloka-sanskrit">${src.shlokaSanskrit}</p>
+        <p class="shloka-meaning">${src.shlokaMeaning || ""}</p>
+      </div>
+    `
+        : ""
+    }
+
+    <div class="source-meta-grid">
+      <div class="meta-item">
+        <div class="meta-label">मूल ग्रंथ</div>
+        <div class="meta-val">${src.work || "महाभारतम्"}</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">पर्व व उपपर्व</div>
+        <div class="meta-val">${src.parva || "आदिपर्व"}</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">अध्याय व श्लोक संदर्भ</div>
+        <div class="meta-val">${src.section || ""}</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">गीताप्रेस गोरखपुर संदर्भ</div>
+        <div class="meta-val">${src.gitaPress || "आदिपर्व"}</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">BORI क्रिटिकल एडिशन</div>
+        <div class="meta-val">${src.boriCitation || "BORI Critical Edition (Poona)"}</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">प्रमाणिक अनुवादक</div>
+        <div class="meta-val">${src.translator || "Kisari Mohan Ganguli"}</div>
+      </div>
+    </div>
+
+    <div class="source-links">
+      ${
+        src.ganguliUrl
+          ? `
+        <a href="${src.ganguliUrl}" target="_blank" rel="noopener noreferrer" class="link-badge">
+          📖 Sacred-Texts (Ganguli English Chapter) ↗
+        </a>
+      `
+          : ""
+      }
+      ${
+        src.wikiUrl
+          ? `
+        <a href="${src.wikiUrl}" target="_blank" rel="noopener noreferrer" class="link-badge">
+          🌐 विकिपीडिया / Wikipedia Reference ↗
+        </a>
+      `
+          : ""
+      }
+      <a href="https://bori.ac.in/" target="_blank" rel="noopener noreferrer" class="link-badge">
+        🏛 भण्डारकर प्राच्य विद्या संशोधन मंदिर (BORI) ↗
+      </a>
+    </div>
+  `;
+
+  $("#source-modal").hidden = false;
+}
+
+function hideSourceModal() {
+  $("#source-modal").hidden = true;
+}
+
 $("#swar").addEventListener("click", (e) => {
   const b = e.target.closest(".swar-bead");
   if (!b) return;
@@ -717,6 +804,14 @@ $("#swar").addEventListener("click", (e) => {
 $("#btn-map").addEventListener("click", goMap);
 $("#btn-reveal-map").addEventListener("click", goMap);
 $("#btn-listen").addEventListener("click", speakCurrent);
+
+$("#btn-cinema-source").addEventListener("click", () => showSourceModal(state.selected));
+$("#btn-map-sources").addEventListener("click", () => showSourceModal(state.selected || "naimisha-satra"));
+$("#btn-source-close").addEventListener("click", hideSourceModal);
+$("#source-backdrop").addEventListener("click", hideSourceModal);
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") hideSourceModal();
+});
 
 bindMap();
 load();

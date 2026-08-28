@@ -3,36 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>महाभारत-कथाचक्र</title>
+  <title>महाभारत-कथाचक्र — आदिपर्व एवं आस्तीक-उपाख्यान</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/theme.css?v=4" />
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Cormorant+Garamond:ital,wght@0,500;1,500;0,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/theme.css?v=5" />
 </head>
 <body>
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- GRAND MAHABHARATA ENTRANCE GATEWAY                              -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
   <div id="gate">
+    <canvas id="gate-canvas"></canvas>
+    <div class="gate-overlay"></div>
     <div class="gate-inner">
-      <p class="kicker">महाभारत-कथाचक्र</p>
-      <h1>यह युद्ध नहीं। यह गुस्सा है।</h1>
-      <p class="hint">एक मरा सर्प। एक राजा का अपमान। कथा वहीं से खुलती है।</p>
-      <div class="gate-rule"></div>
-      <button type="button" id="btn-open">कथा चलाओ</button>
+      <div class="gate-header-emblem">
+        <span class="gate-fleuron">✤</span>
+        <span class="kicker">श्रीमन्महाभारतम् · आदिपर्व</span>
+        <span class="gate-fleuron">✤</span>
+      </div>
+
+      <!-- Sanskrit Mangalacharana Invocation -->
+      <div class="gate-shloka-card">
+        <p class="sanskrit-verse">
+          नारायणं नमस्कृत्य नरं चैव नरोत्तमम् ।<br />
+          देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत् ॥
+        </p>
+        <p class="sanskrit-trans">
+          “भगवान नारायण, नरोत्तम नर, भगवती सरस्वती और महर्षि व्यास को नमन कर उस ‘जय’ इतिहास का पाठ आरम्भ करें।”
+        </p>
+      </div>
+
+      <h1 class="gate-epic-title">महाभारत-कथाचक्र</h1>
+      <p class="gate-epic-tagline">यह कुरुक्षेत्र का युद्ध नहीं — यह उस महाविनाश का बीज है</p>
+
+      <div class="gate-rule">
+        <span class="gate-gem">◆</span>
+      </div>
+
+      <p class="gate-story-hook">
+        एक मृत सर्प · राजा का प्रमाद · मुनिपुत्र का शाप · महा-सर्पसत्र की धधकती अग्नि<br />
+        <span class="gate-sub-hook">दस पावन कथा-बिन्दु · प्रामाणिक श्लोक व संदर्भ · सजीव दृश्य-काव्य</span>
+      </p>
+
+      <div class="gate-actions">
+        <button type="button" id="btn-open" class="btn-gate-enter">
+          <span class="btn-fire-glow"></span>
+          <span class="btn-label">कथाचक्र में प्रवेश करें</span>
+        </button>
+      </div>
     </div>
   </div>
 
   <div id="unfurl" aria-hidden="true"></div>
 
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- HUD & AUDIO CONTROLS                                            -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
   <header class="hud-mark">महाभारत-कथाचक्र</header>
   <p class="hud-where" id="hud-where">आस्तीक-उपाख्यान · मोहर चुनो</p>
-  <button type="button" class="hud-mute" id="btn-mute" hidden>तन्पुरा</button>
-  <div class="swar" id="swar">
-    <button type="button" class="swar-bead" data-swar="tanpura" title="तन्पुरा">तन्पुरा</button>
-    <button type="button" class="swar-bead" data-swar="bansuri" title="बाँसुरी">बाँसुरी</button>
-    <button type="button" class="swar-bead" data-swar="mridang" title="मृदंग">मृदंग</button>
-    <button type="button" class="swar-bead" data-swar="silence" title="मौन">मौन</button>
+  
+  <div class="hud-right-group">
+    <button type="button" class="btn-hud-sources" id="btn-map-sources" title="मूल ग्रंथ प्रमाण व संदर्भ">📜 प्रमाण व संदर्भ</button>
+    <div class="swar" id="swar">
+      <button type="button" class="swar-bead" data-swar="tanpura" title="तन्पुरा">तन्पुरा</button>
+      <button type="button" class="swar-bead" data-swar="bansuri" title="बाँसुरी">बाँसुरी</button>
+      <button type="button" class="swar-bead" data-swar="mridang" title="मृदंग">मृदंग</button>
+      <button type="button" class="swar-bead" data-swar="silence" title="मौन">मौन</button>
+    </div>
   </div>
+
   <p id="map-hint" hidden>यह गुस्सा है — जगमगाती मोहर से कथा शुरू होती है</p>
 
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- MAP / CAUSAL FOLIO                                              -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
   <div id="map-wrap">
     <div id="world">
       <img class="folio" src="art/bg/parchment-map.jpg" alt="" />
@@ -45,6 +90,9 @@
     </div>
   </div>
 
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- CHARACTER REVEAL OVERLAY                                        -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
   <div id="reveal" hidden>
     <img id="reveal-scene" alt="" />
     <div class="reveal-veil"></div>
@@ -58,10 +106,19 @@
     </div>
   </div>
 
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- CINEMA THEATRE & CANVAS EFFECTS LAYER                            -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
   <div id="cinema" hidden>
     <img class="cinema-bg" id="cinema-bg" alt="" />
+    <canvas id="cinema-canvas"></canvas>
     <div class="cinema-veil"></div>
-    <button type="button" class="back-map" id="btn-map">कथाचक्र</button>
+
+    <div class="cinema-top-actions">
+      <button type="button" class="back-map" id="btn-map">कथाचक्र</button>
+      <button type="button" class="btn-cinema-source" id="btn-cinema-source">📜 प्रमाण व श्लोक</button>
+    </div>
+
     <div class="cinema-bar">
       <div class="bar-left">
         <button type="button" class="sunno" id="btn-listen" aria-pressed="false">सुनो</button>
@@ -75,6 +132,23 @@
     </div>
   </div>
 
-  <script type="module" src="js/app.js?v=4"></script>
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- CITATION & SOURCES MODAL DRAWER ("प्रमाण")                        -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <div id="source-modal" hidden>
+    <div class="source-backdrop" id="source-backdrop"></div>
+    <div class="source-card">
+      <div class="source-header">
+        <div class="source-tag">॥ प्रामाणिक ग्रंथ संदर्भ एवं मूल श्लोक ॥</div>
+        <h2 id="source-title">कथा प्रमाण</h2>
+        <button type="button" class="source-close" id="btn-source-close" aria-label="बंद करें">✕</button>
+      </div>
+      <div class="source-body" id="source-body">
+        <!-- Content dynamically populated by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js?v=5"></script>
 </body>
 </html>

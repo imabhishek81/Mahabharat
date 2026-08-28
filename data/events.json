@@ -24,12 +24,16 @@
       "placeEn": "Hermitage of Sage Shamika",
       "artworkId": "uttanka-takshaka",
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Sections XL–XLIII",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01040.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय ४०–४३ (BORI Critical Edition I.36–38)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "धनुष्कोट्या समुद्धृत्य मृतं सर्पमथात्मवान् ।\nप्रायच्छत् स्कन्धदेशे वै मुनेः प्रयतमानसः ॥\nसप्तरात्रादितः स्थाता न स जीवन् नराधिपः ।\nतं तक्षकः पन्नगेन्द्रः प्रधक्ष्यति विषाग्निना ॥",
+        "shlokaMeaning": "‘राजा ने धनुष की नोक से मृत सर्प उठाकर मुनि के कंधे पर रखा... और शृङ्गी ने शाप दिया कि आज से सातवें दिन सर्पराज तक्षक उस राजा को अपने विष की अग्नि से भस्म कर देगा।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय ४०, श्लोक २१ व अध्याय ४१, श्लोक ३७",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 36–38",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01040.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Parikshit"
       }
     },
     {
@@ -62,12 +66,16 @@
       "placeEn": "Hastinapura, Parikshit's guarded palace",
       "artworkId": "uttanka-takshaka",
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Sections XLII–XLIV",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01042.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय ४२–४४ (BORI Critical Edition I.39–40)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "तक्षको नृपतिं दृष्ट्वा फलाद् भूत्वा च पन्नगः ।\nवेष्टयामास वेगेन राजानं कुरुसत्तमम् ॥\nददंश च महाराजं तक्षकः क्रोधमूर्च्छितः ।\nततो नदन्तो बहवो मन्त्रिणः प्रपलायिताः ॥",
+        "shlokaMeaning": "‘तक्षक ने फल से विशाल नाग-रूप धारण कर कुरुश्रेष्ठ परीक्षित को लपेट लिया और क्रोध में डस लिया; मन्त्री हाहाकार करते हुए भाग छूटे।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय ४३, श्लोक ३१–३४",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 39–40",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01042.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Takshaka"
       }
     },
     {
@@ -107,12 +115,16 @@
       "placeEn": "Janamejaya's sacrificial arena",
       "artworkId": null,
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Sections XLIX–LII",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01049.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय ४९–५२ (BORI Critical Edition I.47–49)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "ऋत्विजस्ते समाहूय सर्पसत्राय दीक्षिताः ।\nमन्त्रैश्चावाहयामासुः सर्पान् ज्वलितपावके ॥\nततो नागाः समापेतुर्दीप्ते हव्यभुजि द्विजाः ।\nवेपमाना विचेष्टन्तः क्रन्दमानाः परस्परम् ॥",
+        "shlokaMeaning": "‘दीक्षित ऋत्विकों ने मन्त्रों द्वारा प्रज्वलित अग्नि में नागों का आवाहन किया; कांपते, छटपटाते और क्रन्दन करते हुए सहस्रों सर्प अग्नि में गिरने लगे।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय ५१, श्लोक ७–११",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 47–49",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01049.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Sarpa_Satra"
       }
     },
     {
@@ -139,12 +151,16 @@
       "placeEn": "Shore of the Ocean of Milk",
       "artworkId": "garuda-lakshmi",
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Sections XX–XXIII",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01020.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय २०–२३ (BORI Critical Edition I.18–20)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "सर्पसत्रे वर्तमान पाण्डवेयस्य धीमतः ।\nजनमेजयस्य वो वह्निर्धक्ष्यतीति प्रकुपिता ॥\nतच्छ्रुत्वा भगवाञ्छर्वः सर्वलोकपितामहः ।\nअत्युग्रं सर्वनागानां शापं तं सममोदत ॥",
+        "shlokaMeaning": "‘क्रुद्ध कद्रू ने शाप दिया: बुद्धिमान पाण्डव जनमेजय के सर्पसत्र में अग्नि तुम सबको भस्म कर देगी! लोकपितामह ब्रह्माजी ने भी नागों के इस अति उग्र शाप का अनुमोदन किया।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय २०, श्लोक ७–१०",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 18–20",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01020.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Kadru"
       }
     },
     {
@@ -178,12 +194,16 @@
       "placeEn": "Heaven and the Naga realm",
       "artworkId": "garuda-lakshmi",
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Sections XXIX–XXXIV",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01029.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय २९–३४ (BORI Critical Edition I.25–30)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "ततोऽमृते समाहृते कुशपृष्ठे निधाय च ।\nगरुडः सर्वनागेभ्यः प्रतिश्रुत्य विमुक्तवान् ॥\nततो लेलिहमानास्ते कुशान् सर्पा द्विधाकृताः ।\nअभवन् द्विजिव्हास्तत्र दास्यं मातुरपाकृतम् ॥",
+        "shlokaMeaning": "‘गरुड़ ने अमृत लाकर कुश पर रखा और माता को दास्य से मुक्त कराया; नागों ने कुश चाटा जिससे वे द्विजिह्व (दो जीभ वाले) हो गए, किन्तु शाप न टला।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय ३४, श्लोक २४–२८",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 25–30",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01029.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Garuda"
       }
     },
     {
@@ -215,12 +235,16 @@
       "placeEn": "Subterranean council of the Nagas",
       "artworkId": null,
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Section XXXVIII",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01038.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय ३८ (BORI Critical Edition I.34)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "यायावराणां प्रवरो जरत्कारुरिति श्रुतः ।\nतस्य भार्या जरत्कारुर्नाम्ना चैव भविष्यति ॥\nतस्यां तस्य सुतो जातो नागांस्त्रास्यति पावकत् ।\nआस्तीको नाम धर्मात्मा सर्पसत्रनिवारकः ॥",
+        "shlokaMeaning": "‘यायावर कुल के श्रेष्ठ तपस्वी जरत्कारु की पत्नी उसी नाम की नागकन्या होगी; उससे उत्पन्न धर्मात्मा पुत्र आस्तीक ही सर्पसत्र को रोककर नागों की रक्षा करेगा।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय ३८, श्लोक १२–१६",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 34",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01038.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Astika_(sage)"
       }
     },
     {
@@ -254,12 +278,16 @@
       "placeEn": "Hermitage of Jaratkaru / Naga realm",
       "artworkId": null,
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Sections XLV–XLVIII",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01045.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय ४५–४८ (BORI Critical Edition I.41–44)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "तस्यां जज्ञे महातेजा महात्मा वेदपारगः ।\nआस्तीको नाम धर्मात्मा सर्पसत्रस्य वारकः ॥\nस च बाल्येऽपि विप्रर्षिर्भार्गवैरुपशिक्षितः ।\nसाङ्गोपाङ्गानशेषेण वेदान् समधिजग्मिवान् ॥",
+        "shlokaMeaning": "‘नागकन्या जरत्कारु के गर्भ से महातेजस्वी, वेदपारंगत बालक आस्तीक का जन्म हुआ, जिसने बाल्यकाल में ही भार्गव मुनियों से समस्त वेदों और वेदाङ्गों का अध्ययन किया।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय ४८, श्लोक २१–२५",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 41–44",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01045.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Jaratkaru"
       }
     },
     {
@@ -298,12 +326,16 @@
       "placeEn": "Altar of the Snake Sacrifice",
       "artworkId": null,
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Astika Parva",
-        "section": "Sections LIII–LVIII",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01053.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — आस्तीकपर्व",
+        "section": "अध्याय ५३–५८ (BORI Critical Edition I.50–53)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "वरं वृणीष्व विप्रर्षे यत्ते मनसि वर्तते ।\nआस्तीक उवाच—\nसत्रमेतन्निवर्ततां सर्पाश्चैव विमुच्यताम् ॥\nततो जनमेजयेनोक्तं तथास्त्विति महात्मना ।\nतक्षकोऽप्यपतद् भूमौ मुक्तो वह्निमुखात् तदा ॥",
+        "shlokaMeaning": "‘जनमेजय ने कहा: हे विप्रर्षे! वर माँगो। आस्तीक बोले: यह यज्ञ तुरन्त रुक जाए और नाग मुक्त हों। राजा ने कहा: ऐसा ही हो; और तक्षक अग्निमुख से छूटकर भूमि पर गिर पड़ा।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय ५६, श्लोक १५–२१",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 50–53",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01053.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Janamejaya"
       }
     },
     {
@@ -328,12 +360,16 @@
       "placeEn": "Naimisha Forest",
       "artworkId": null,
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Anukramanika",
-        "section": "Section I",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01001.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — अनुक्रमणिकापर्व",
+        "section": "अध्याय १ (BORI Critical Edition I.1)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "लोमहर्षणपुत्र उग्रश्रवाः सूतः पौराणिकः ।\nनैमिषारण्ये शौनकस्य कुलपतेर्द्वादशवार्षिके सत्रे ॥\nसमासीनानभ्यगच्छद् ब्रह्मर्षीन् संशितव्रतान् ।\nविनयावनतो भूत्वा कदाचित् सूतनन्दनः ॥",
+        "shlokaMeaning": "‘लोमहर्षण के पुत्र पौराणिक सूत उग्रश्रवा नैमिषारण्य में कुलपति शौनक के बारह वर्ष चलने वाले यज्ञ में समासीन ब्रह्मर्षियों के समीप विनीत भाव से उपस्थित हुए।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय १, श्लोक १–३",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 1",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01001.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Naimisha_Forest"
       }
     },
     {
@@ -367,12 +403,16 @@
       "placeEn": "Naimisha / Janamejaya's assembly",
       "artworkId": null,
       "source": {
-        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
-        "parva": "Adi Parva, Anukramanika",
-        "section": "Section I",
-        "translator": "Kisari Mohan Ganguli",
-        "year": "1883–1896",
-        "url": "https://www.sacred-texts.com/hin/m01/m01001.htm"
+        "work": "महाभारतम् (व्यास-विरचितम्)",
+        "parva": "आदिपर्व — अनुक्रमणिकापर्व व पर्वसङ्ग्रहपर्व",
+        "section": "अध्याय १–२ (BORI Critical Edition I.1–2)",
+        "translator": "Kisari Mohan Ganguli (1883–1896) / गीताप्रेस गोरखपुर",
+        "shlokaSanskrit": "चतुर्विंशतिसाहस्रीं चक्रे भारतसंहिताम् ।\nउपाख्यानैर्विना तावद् भारतं प्रोच्यते बुधैः ॥\nकृष्णद्वैपायनं व्यास विद्धि नारायणं प्रभुम् ।\nको ह्यन्यः पुण्डरीकाक्षान्महाभारतकृद् भवेत् ॥",
+        "shlokaMeaning": "‘व्यासदेव ने चौबीस हजार श्लोकों की भारत-संहिता की रचना की... भगवान कृष्ण द्वैपायन व्यास को साक्षात् नारायण जानिए, क्योंकि उनके अतिरिक्त महाभारत रचने में कौन समर्थ हो सकता है।’",
+        "gitaPress": "गीताप्रेस आदिपर्व अध्याय १, श्लोक १०२–१०८",
+        "boriCitation": "BORI Critical Edition: Vol I (Adi Parvan), Adhyaya 1–2",
+        "ganguliUrl": "https://www.sacred-texts.com/hin/m01/m01001.htm",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Vyasa"
       }
     }
   ]
